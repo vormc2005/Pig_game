@@ -9,6 +9,16 @@
     
 }
 
+ .final-score{
+     position: absolute; 
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 520px;
+    text-align: center;
+    height: 30px;
+    font-size: 18px;
+} 
+
 .clearfix::after {
     content: "";
     display: table;
