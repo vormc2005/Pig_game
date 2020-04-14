@@ -104,9 +104,9 @@ function init() {
     document.getElementById('name-1').textContent = 'Player 2';
     document.querySelector('.player-0-panel').classList.remove('winner');
     document.querySelector('.player-1-panel').classList.remove('winner');
-        document.querySelector('.player-0-panel').classList.add('active');
-        document.querySelector('.player-1-panel').classList.add('active');
-        document.querySelector('.player-0-panel').classList.add('active');
+        // document.querySelector('.player-0-panel').classList.add('active');
+        // document.querySelector('.player-1-panel').classList.add('active');
+        // document.querySelector('.player-0-panel').classList.add('active');
        
         
 
