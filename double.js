@@ -59,6 +59,7 @@ document.querySelector(".btn-roll").addEventListener("click", function () {
         roundScore += diceSum;
         document.querySelector("#current-" + activePlayer).textContent = roundScore;
     } else {
+        alert("You just rolled a wrong dice, It is next player's turn now")
         nextPlayer();
     }
     previousDice = dice;
@@ -105,6 +106,9 @@ if (scores[activePlayer] >= typedScore) {
 
 });
 
+// function timeFunction() {
+//     setTimeout(function(){ alert("You rolled one "); }, 5000);
+// }
 
 function nextPlayer() {
 
@@ -116,8 +120,9 @@ function nextPlayer() {
 
     document.querySelector('.player-0-panel').classList.toggle('active')
     document.querySelector('.player-1-panel').classList.toggle('active')
-    document.querySelector('.dice').style.display = "none";
-    document.querySelector('.dice1').style.display = "none";
+  
+    // document.querySelector('.dice').style.display = "none";
+    // document.querySelector('.dice1').style.display = "none";
 
 
 }
