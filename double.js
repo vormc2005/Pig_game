@@ -99,7 +99,7 @@ if (scores[activePlayer] >= typedScore) {
 } else {
     nextPlayer();
 }
-//Next player
+
     }
     
 
@@ -122,7 +122,7 @@ function nextPlayer() {
 
 }
 
-
+//New game initiation
 document.querySelector(".btn-new").addEventListener('click', init);
 
 
@@ -134,7 +134,7 @@ function init() {
     typedScore = 100;
 
     
-    // document.querySelector(".final-score").reset();
+    
     document.querySelector(".dice").style.display = "None";
     document.querySelector(".dice1").style.display = "None";
 
