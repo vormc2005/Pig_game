@@ -7,3 +7,6 @@ GAME RULES:
 - The first player to reach 100 points on GLOBAL score wins the game
 - if player gets 4 sixes in the row, all of his/hers scores reset to 0!!!
 - Players can decide type winning score in input field, and game will be going on till one of the players reaches total score that is equal or over inputed number
+
+
+![](Pig_game.gif)
