@@ -50,7 +50,8 @@ document.querySelector(".btn-roll").addEventListener("click", function () {
     //3.Update round score if number !=1
         if (dice ===6 && previousDice === 6 && dice1==6 && previousDice1==6){
             //reduce score to 0
-            scores[activePlayer] = 0;
+            alert("You rolled 2 double sixes in the row, your score is now 0");
+            scores[activePlayer] = 0;            
             nextPlayer(); 
      }     
     else if (dice !== 1 && dice1 !==1 ) {
@@ -59,7 +60,7 @@ document.querySelector(".btn-roll").addEventListener("click", function () {
         roundScore += diceSum;
         document.querySelector("#current-" + activePlayer).textContent = roundScore;
     } else {
-        alert("You just rolled a wrong dice, It is next player's turn now")
+        alert("One of your dices had value of 1, It is next player's turn now")
         nextPlayer();
     }
     previousDice = dice;
